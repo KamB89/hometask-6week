@@ -1,0 +1,146 @@
+.text1{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+    width: 400px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.text2{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    width: 400px;
+
+}
+
+b{
+    margin-left: 10px;
+}
+
+
+.text3{
+    display: block;
+    
+}
+
+span{
+    display: block;
+    
+}
+
+
+   
+
+.flex-part{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-style: solid 2px black;
+    width: 600px;
+   
+   
+}
+
+.flex1{
+    background-color: rgb(124, 124, 187);
+    border-radius: 5%;
+    padding: 5px;
+    
+}
+
+.flex2{
+     background-color: rgb(124, 124, 187);
+     border-radius: 10%;
+     padding: 5px;
+}
+.action{
+    background-color: rgb(7, 7, 65);
+    color: white;
+}
+
+p{
+    border-bottom: solid 1px black;
+}
+
+
+@media(min-width:600px) and (max-width:800px){
+.flex-part{
+    display: flex;
+}
+.flex1{
+    width: 45%;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+.flex2{
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 10%;
+
+}
+
+.text1{
+    width: 550px;
+}
+
+.text2{
+    width: 550px;
+}
+}
+
+@media(min-width:800px){
+    .main-content{
+        display: flex;
+        margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+    }
+    .flex-part{
+        width: 30%;
+        margin-right: 10px;
+        height: 180px;
+        
+        
+
+    }
+
+    .main{
+        width: 70%;
+        margin-top: 10px;
+    }
+    .text1{
+        align-items: center;
+        width: 90%;
+}
+.text2{
+    align-items: center;
+    width: 90%;
+}
+
+.flex1{
+    margin-bottom: 20px;
+    border-radius: 10%;
+    
+
+
+}
+
+.flex2{
+    margin-bottom: 20px;
+    border-radius: 10%;
+
+}
+
+
+
+}
